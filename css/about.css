@@ -1,0 +1,118 @@
+.AboutPage
+{
+    height:600px;
+    width:100%;
+}
+.AboutPage .AboutPage__parent
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height:600px;
+    width:100%;
+}
+.AboutPage__parent .AboutPage__parent--child1
+{
+    width:550px;
+    height:550px;
+}
+.AboutPage__parent--child2{
+    width:700px;
+    height:480px;
+}
+.AboutPage__parent--child2 h2{
+    text-align: left;
+    font-size: 1.7em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:700;
+    margin:1.5em 0em 0.8em 0em;
+}
+.AboutPage__parent--child2 h3{
+    text-align: left;
+    font-size: 1.15em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:600;
+    margin:0em;
+}
+
+.AboutPage__parent--division2--part1b p{
+    text-align: left;
+    font-size: 0.95em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:400;
+    margin:0.5em 0em 0em 0em;
+    line-height:1.8em;
+    color:#889098;
+}
+.AboutPage__parent--child2 .AboutPage__parent--division2
+{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    height:150px;
+    width:100%;
+    
+    
+}
+.AboutPage__parent--division2 .AboutPage__parent--division2--part1
+{
+    display:flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    
+    height:150px;
+    width:350px;
+    
+    
+}
+.AboutPage__parent--division2--part1 .AboutPage__parent--division2--part1a
+
+
+{
+    display:flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height:100%;
+    width:100px;
+    
+    
+    
+}
+.AboutPage__parent--division2--part1 .AboutPage__parent--division2--part1b
+{
+    height:100%;
+    width:200px;
+    
+}
+
+
+
+
+.AboutPage__parent--division2--part1a .AboutPage__parent--division2--circle
+{
+    background-color:#00BD56;
+    padding:1em;
+    height:45px;
+    width:45px;
+    border-radius:50%;
+    position:relative;
+    
+}
+.AboutPage__parent--division2--part1a .AboutPage__parent--division2--img01{
+    width:30px;
+    height:30px;
+    position:absolute;
+    top:25px;
+    left:25px;
+    filter:invert(100%);
+}
+
+.AboutPage__parent--division2--part1
+{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.AboutPage__parent--child2 .AboutPage__parent--division2{
+
+}

@@ -1,0 +1,117 @@
+.ServicePage{
+    height:1080px;
+    width:100%;
+    background-color: #f8f9fd;
+}
+.ServicePage h1{
+    text-align: center;
+    font-size: 1.8em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    padding:3em 0em 2em 0em;
+    color:#323233;
+}
+.ServicePage .ServicePage__child2__parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.ServicePage__child2__parent .ServicePage__child2{
+    margin-left: 2em;
+    height:800px;
+    width:350px;
+    background-color: white;
+    /* padding:0.5em; */
+    border-radius: 1em;
+}
+.ServicePage__child2 .ServicePage__child2--img01{
+    height:250px;
+    width:100%;
+    object-fit: cover;
+}
+.ServicePage__child2 h2{
+    margin:2em 0em 2em 0em;
+    text-align: center;
+    font-size: 1em;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    color:#47cf85;
+}
+.ServicePage__child2 h3{
+    margin:0em 0em 2em 0em;
+    text-align: center;
+    font-size: 0.85em;
+    font-weight: normal;
+    font-family: 'Montserrat', sans-serif;
+    color:#000000;
+}
+h3 .ServicePage__child2--part1--para{
+    font-size: 4em;
+    font-weight:700;
+}
+h3 .ServicePage__child2--part1--para-1{
+    font-size: 2em;
+    vertical-align: top;
+    color:#b3b3b3;
+    font: weight 400px;
+}
+
+.ServicePage__child2 .ServicePage__child2--part1{
+    text-align: center;
+}
+.ServicePage__child2--part1 .ServicePage__child2--part1--div1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f2f2f2;
+    
+    padding:1em;
+    margin:0em 1.5em 0em 1.5em;
+}
+.ServicePage__child2--part1 .ServicePage__child2--part1--div2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    margin:0em 1.5em 0em 1.5em;
+    padding:1em;
+    
+}
+
+.ServicePage__child2--part1--div1 .ServicePage__child2--para1,
+.ServicePage__child2--part1--div2 .ServicePage__child2--para1
+
+{
+    font-size: 1em;
+    font-weight: normal;
+    font-family: 'Montserrat', sans-serif;
+}
+.ServicePage__child2--part1--div1 .ServicePage__child2--part1--div1--img01,
+.ServicePage__child2--part1--div2 .ServicePage__child2--part1--div2--img01
+{
+    width:18px;
+    height:18px;
+    padding-right:0.5em;
+}
+.ServicePage__child2--part1 .ServicePage__child2--para2{
+    font-size: 1em;
+    font-weight: normal;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ffffff;
+    /* height:10px;
+    width:30px; */
+    padding:1em;
+    margin:0em 1.5em 0em 1.5em;
+}
+.ServicePage__child2--part1 button{
+    font-size: 0.8em;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #00bd56;
+    color:#ffffff;
+    border-radius: 0.2em;
+    padding:1.5em 3em 1.5em 3em;
+    margin:2em 0em 0em 0em;
+    border:none;
+}

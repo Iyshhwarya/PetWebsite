@@ -1,0 +1,45 @@
+.ContactPage{
+    background-image: linear-gradient(to right, #1d82f2, #02b862);
+    height:50px;
+    width:100%;
+}
+.ContactPage .ContactPage__parent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height:50px;
+    width:100%;
+    
+}
+.ContactPage__parent .ContactPage__parent--child1
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left:8em;
+    
+}
+.ContactPage__parent .ContactPage__parent--child2
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right:8em;
+    
+}
+
+
+.ContactPage__parent--child1 .ContactPage__parent--child1--img01,
+.ContactPage__parent--child2 .ContactPage__parent--child2--img01
+{
+    height:15px;
+    width:15px;
+    filter: invert(100%);
+    padding:0em 1em 0em 1em;
+} 
+.ContactPage__parent--child1 p{
+    text-align: left;
+    color:white;
+    font-size: 0.85em;
+    font-family: 'Montserrat', sans-serif;
+}	

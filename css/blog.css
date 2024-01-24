@@ -1,0 +1,87 @@
+.BlogPage{
+    height:700px;
+    width:100%;
+    background-color: #f8f9fd;
+}
+.BlogPage h1{
+    padding:3em 0em 2em 0em;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.8em;
+    font-family: 'Montserrat', sans-serif;
+}
+.BlogPage .BlogPage__parent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.BlogPage__parent .BlogPage__parent--child1{
+    height:400px;
+    width:350px;
+    background-color: white;
+    margin-left: 1.5em;
+    border-radius: 0.4em;
+}
+.BlogPage__parent--child1 .BlogPage__parent--child1--img01{
+    height:250px;
+    width:100%;
+    object-fit: cover;
+}
+.BlogPage__parent--child1 .BlogPage__parent--child1--division1{
+    text-align: center;
+    padding: 1em;
+}
+.BlogPage__parent--child1--division1 .BlogPage__parent--child1--division1--para2{
+    text-align: left;
+    font-size: 1.1em;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.8em;
+    cursor: pointer;
+}
+
+.BlogPage__parent--child1--division1--para2:hover{
+    color:#32AC69;
+    font-weight: 400;
+}
+
+.BlogPage__parent--child1--division1__part1 .BlogPage__parent--child1--division1__part1g:hover{
+    color:black;
+}
+
+
+.BlogPage__parent--child1--division1 .BlogPage__parent--child1--division1__part1{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.BlogPage__parent--child1--division1__part1 .BlogPage__parent--child1--division1__part1a{
+    text-align: left;
+    font-size: 0.8em;
+    color:#b8b8b8;
+    font-weight: 600;
+    margin:0em 1em 1em 0em;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+
+}
+.BlogPage__parent--child1--division1__part1 .BlogPage__parent--child1--division1__part1g{
+    text-align: left;
+    font-size: 0.8em;
+    color:#08ae53;
+    font-weight: 600;
+    margin:0em 1em 1em 0em;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+
+}
+.BlogPage__parent--child1--division1__part1 .BlogPage__parent--child1--division1__img01
+{
+    width:10px;
+    height:10px;
+    padding:0em 1em 0em 0.5em;
+    cursor: pointer;
+    color:#08ae53; 
+}
+.BlogPage__parent--child1--division1__img01:hover{
+    color:black;
+}

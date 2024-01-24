@@ -1,0 +1,135 @@
+.FQAPage{
+    height:870px;
+    width:100%;
+    background-color:#f8f9fd;
+}
+.FQAPage .FQAPage__parent{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    height:auto;
+    width:100%;
+    /* background-color: brown; */
+}
+.FQAPage .FQAPage__parent .FQAPage__parent--child1{
+    height:100%;
+    width:600px;
+    /* background-color: pink; */
+    padding:3em;
+}
+.FQAPage__parent--child1 h1{
+    text-align:left;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+    font-weight:700;
+    margin-bottom:1em;
+}
+.FQAPage__parent--child1 p{
+    text-align:left;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9em;
+    color:#88828c;
+    margin-bottom:1em;
+    line-height: 1.8em;
+}
+.FQAPage__parent--child1__division1 .FQAPage__parent--child1__division1--part1
+{
+    background-color:#ffffff;
+    padding:1.5em;
+    border-radius:3em;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    height:15px;
+    width:500px;
+    margin-top:1em;
+
+}
+.FQAPage__parent--child1__division1--part1 .FQAPage__parent--child1__division1--para1
+{
+    margin:0em;
+    padding:0em;
+    text-align:left;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1em;
+    color:#000000;
+}
+.FQAPage__parent--child1__division1--part1 .FQAPage__parent--child1__division1--para2
+{
+    margin:0em;
+    padding:0em;
+    text-align:left;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8em;
+    font-weight:700;
+    color:#88828c;
+}
+.FQAPage__parent--child1__division1 .FQAPage__parent--child1__division1--part2
+{
+    background-color:#ffffff;
+    padding:3em;
+    border-radius:3em;
+    height:170px;
+    width:450px;
+    margin-top:0.8em;
+    display: none;
+}
+.FQAPage__parent--child1__division1--part2 ol li{
+    text-align:left;
+    font-weight:normal;
+    font-family: 'Montserrat', sans-serif;
+    padding-top:1.5em;
+    font-size: 0.95em;
+    color:#000000;
+}
+.FQAPage__parent--child1__division1 .FQAPage__parent--child1__division1--part2a
+{
+    background-color:#ffffff;
+    color:#000000;
+    padding:1.5em;
+    border-radius:2em;
+    height:100px;
+    width:500px;
+    margin-top:0.8em;
+    display: none;
+}
+
+.FQAPage__parent--child1__division1--part2a p{
+    text-align:left;
+    font-weight:normal;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.95em;
+    color:#000000;
+    line-height:1.9em;
+}
+
+.FQAPage__parent--child1__division1--part2 .top0{
+    padding-top:0em;
+}
+.FQAPage__parent .FQAPage__parent--child2
+{
+    height:800px;
+    width:550px;
+    padding:1em 2em 2em 2em;
+    
+
+}.FQAPage__parent--child2 .FQAPage__parent--child2--video1{
+    height:450px;
+    width:100%;
+ }
+.FQAPage__parent--child2 .FQAPage__parent--child2--img01{
+    
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    height:250px;
+    width:100%;
+    
+}
+.FQAPage__parent--child2--img01 .img01
+{
+
+    height:100%;
+    width:264px;
+    object-fit: cover;
+}

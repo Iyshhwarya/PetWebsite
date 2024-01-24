@@ -1,0 +1,107 @@
+.FeedbackPage{
+    height:600px;
+    width:100%;
+    background-image: url("../images/feedback/bg_2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.FeedbackPage h1{
+    text-align: center;
+    font-size: 1.65em;
+    color:#000000;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    padding:3em 0em 3em 0em;
+}
+.FeedbackPage .FeedbackPage__child2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.FeedbackPage__child2 .FeedbackPage__child2--division1{
+    background-color: white;
+    border-radius: 0.3em;
+    height:220px;
+    width:300px;
+    padding:1em;
+    position: relative;
+    margin-left: 2em;
+}
+
+
+.FeedbackPage__child2--division1 .FeedbackPage__child2--division1--circle
+{
+    background-color: #00BD56;
+    height:40px;
+    width:40px;
+    border-radius: 50%;
+    top:-20px;
+    left:1.3em;
+    position: absolute;
+}
+
+
+.FeedbackPage__child2--division1 .FeedbackPage__child2--division1__para1
+{
+    text-align: center;
+    font-size: 3em;
+    font-weight: normal;
+    font-family: 'Montserrat', sans-serif;
+    color:white;
+    position: absolute;
+    top:-17px;
+    left:0.6em;
+}
+
+
+.FeedbackPage__child2--division1 .FeedbackPage__child2--division1__para2
+{
+    text-align: left;
+    font-size: 0.95em;
+    font-weight: normal;
+    font-family: 'Montserrat', sans-serif;
+    top:2em;
+    position: absolute;
+    color:#979797;
+    line-height: 1.8em;
+    padding-right: 1em;
+}
+
+.FeedbackPage__child2--division1 .FeedbackPage__child2--division1__part2
+{
+    
+    top:150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+
+.FeedbackPage__child2--division1__part2 .FeedbackPage__child2--division1__part2__img01
+{
+    height:80px;
+    width:80px;
+    border-radius: 50%;
+    margin-right: 1em;
+}
+
+.FeedbackPage__child2--division1__part2 h2
+{
+    text-align: left;
+    font-weight: 600;
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.FeedbackPage__child2--division1__part2 p
+{
+    text-align: left;
+    font-weight: normal;
+    font-size: 0.85em;
+    padding-top:1em;
+    font-family: 'Montserrat', sans-serif;
+}

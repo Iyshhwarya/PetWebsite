@@ -1,0 +1,33 @@
+.SummaryPage{
+    height:200px;
+    width:100%;
+    background-color: #00bd56;
+}
+.SummaryPage .SummaryPage__parent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:200px;
+    width:100%;
+
+}
+.SummaryPage__parent .SummaryPage__parent--child1{
+    margin-left:8em;
+}
+.SummaryPage__parent--child1 .SummaryPage__parent--child1__para1
+{
+    text-align: center;
+    font-size: 3.7em;
+    font-weight: 700;
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+}
+.SummaryPage__parent--child1 .SummaryPage__parent--child1__para2
+{
+    text-align: center;
+    font-size: 1em;
+    font-weight: normal;
+    color:white;
+    padding-top:1em;
+    font-family: 'Montserrat', sans-serif;
+}

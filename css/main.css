@@ -1,0 +1,21 @@
+@import url("navPage.css");
+@import url("FrontPage.css");
+@import url("slide.css");
+@import url("about.css");
+@import url("FQA.css");
+@import url("service.css");
+@import url("gallary.css");
+@import url("blog.css");
+@import url("feedback.css");
+@import url("registration.css");
+@import url("summary.css");
+@import url("contact.css");
+@import url("footer.css");
+
+
+
+*{
+    margin:0em;
+    padding:0em;
+    box-sizing: border-boxs;
+}
