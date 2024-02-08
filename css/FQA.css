@@ -32,7 +32,9 @@
     margin-bottom:1em;
     line-height: 1.8em;
 }
-.FQAPage__parent--child1__division1 .FQAPage__parent--child1__division1--part1
+.FQAPage__parent--child1__division1 .FQAPage__parent--child1__division1--part1,
+.FQAPage__parent--child1__division1 .FQAPage__parent--child1__division1--part1a,
+.FQAPage__parent--child1__division1 .FQAPage__parent--child1__division1--part1b
 {
     background-color:#ffffff;
     padding:1.5em;
@@ -45,7 +47,9 @@
     margin-top:1em;
 
 }
-.FQAPage__parent--child1__division1--part1 .FQAPage__parent--child1__division1--para1
+.FQAPage__parent--child1__division1--part1 .FQAPage__parent--child1__division1--para1,
+.FQAPage__parent--child1__division1--part1 .FQAPage__parent--child1__division1--para1a,
+.FQAPage__parent--child1__division1--part1 .FQAPage__parent--child1__division1--para1b
 {
     margin:0em;
     padding:0em;
@@ -66,7 +70,7 @@
 }
 .FQAPage__parent--child1__division1 .FQAPage__parent--child1__division1--part2
 {
-    background-color:#ffffff;
+    background-color:#00BD56;
     padding:3em;
     border-radius:3em;
     height:170px;
@@ -84,7 +88,7 @@
 }
 .FQAPage__parent--child1__division1 .FQAPage__parent--child1__division1--part2a
 {
-    background-color:#ffffff;
+    background-color:#00BD56;
     color:#000000;
     padding:1.5em;
     border-radius:2em;

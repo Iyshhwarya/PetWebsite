@@ -240,11 +240,11 @@
                     <h1>Frequently Asks Questions</h1>
                     <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
                     <div class="FQAPage__parent--child1__division1">
-                        <div class="FQAPage__parent--child1__division1--part1">
+                        <div class="FQAPage__parent--child1__division1--part1" onclick="myfunction()">
                             <p class="FQAPage__parent--child1__division1--para1">How to train your pet dog?</p>
                             <p class="FQAPage__parent--child1__division1--para2">+</p>
                         </div>
-                        <div class="FQAPage__parent--child1__division1--part2">
+                        <div id="myfunc" class="FQAPage__parent--child1__division1--part2">
                             <ol>
                                 <li class="top0">Far far away, behind the word mountains</li>
                                 <li>Consonantia, there live the blind texts</li>
@@ -255,11 +255,11 @@
                         </div>
                     </div>
                     <div class="FQAPage__parent--child1__division1">
-                        <div class="FQAPage__parent--child1__division1--part1">
+                        <div class="FQAPage__parent--child1__division1--part1" onclick="myfunction1()">
                             <p class="FQAPage__parent--child1__division1--para1">How to manage your pets?</p>
                             <p class="FQAPage__parent--child1__division1--para2">+</p>
                         </div>
-                        <div class="FQAPage__parent--child1__division1--part2">
+                        <div  id="myfunc1" class="FQAPage__parent--child1__division1--part2">
                             <ol>
                                 <li class="top0">Far far away, behind the word mountains</li>
                                 <li>Consonantia, there live the blind texts</li>
@@ -270,11 +270,11 @@
                         </div>
                     </div>
                     <div class="FQAPage__parent--child1__division1">
-                        <div class="FQAPage__parent--child1__division1--part1">
+                        <div class="FQAPage__parent--child1__division1--part1" onclick="myfunction2()">
                             <p class="FQAPage__parent--child1__division1--para1">What is the best grooming for your pets?</p>
                             <p class="FQAPage__parent--child1__division1--para2">+</p>
                         </div>
-                        <div class="FQAPage__parent--child1__division1--part2">
+                        <div  id="myfunc2"  class="FQAPage__parent--child1__division1--part2">
                             <ol>
                                 <li class="top0">Far far away, behind the word mountains</li>
                                 <li>Consonantia, there live the blind texts</li>
@@ -285,11 +285,11 @@
                         </div>
                     </div>
                     <div class="FQAPage__parent--child1__division1">
-                        <div class="FQAPage__parent--child1__division1--part1">
+                        <div class="FQAPage__parent--child1__division1--part1" onclick="myfunction3()">
                             <p class="FQAPage__parent--child1__division1--para1">What are those requirements for sitting pets?</p>
                             <p class="FQAPage__parent--child1__division1--para2">+</p>
                         </div>
-                        <div class="FQAPage__parent--child1__division1--part2a">
+                        <div  id="myfunc3" class="FQAPage__parent--child1__division1--part2a">
                             <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
                         </div>
                     </div>
@@ -297,7 +297,9 @@
                 </div>
                 <div class="FQAPage__parent--child2">
                     <video class="FQAPage__parent--child2--video1" controls poster="./images/FQA/about.jpg">
-                        <source src="https://vimeo.com/45830194" type="video/mp4">
+                        <iframe id="videoFrame" src="https://vimeo.com/embed/45830194" class="VideoPage_child1--video" controls></iframe>
+
+                        <!-- <source src="https://vimeo.com/45830194" type="video/mp4"> -->
                     </video>
                     <div class="FQAPage__parent--child2--img01">
                         <div><img class="img01" src="./images/FQA/about-2.jpg" alt="images"/></div>
@@ -651,5 +653,6 @@
             </div>
         </section>
         <!--FooterPage ends-->
+        <script src="./js/main.js"></script>
     </body>
 </html>
