@@ -35,7 +35,7 @@ function myfunction3(){
     }
 }
 
-// function playVedioFunction(){
-//     var y = document.getElementById("videoFrame");
-//     y.style.display =  "block";
-// }
+function playVedioFunction(){
+    var y = document.getElementById("videoFrame");
+    y.style.display =  "block";
+}

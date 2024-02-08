@@ -296,11 +296,22 @@
                     
                 </div>
                 <div class="FQAPage__parent--child2">
-                    <video class="FQAPage__parent--child2--video1" controls poster="./images/FQA/about.jpg">
-                        <iframe id="videoFrame" src="https://vimeo.com/embed/45830194" class="VideoPage_child1--video" controls></iframe>
+                    <!-- <video class="FQAPage__parent--child2--video1" controls poster="./images/FQA/about.jpg">
+                        <iframe id="videoFrame" src="https://vimeo.com/embed/45830194" controls></iframe>
 
-                        <!-- <source src="https://vimeo.com/45830194" type="video/mp4"> -->
-                    </video>
+                        <source src="https://vimeo.com/45830194" type="video/mp4">
+                    </video> -->
+                    <div class="VideoPage_child1">
+                        <div class="video-poster"><img src="./images/FQA/about.jpg" alt="Video Poster"></div>
+                        <div class="VideoPage_child2">
+                            <div class="VideoPage_child2--circle1" onclick="playVedioFunction()">
+                                <div class="VideoPage_child2--circle2"></div>
+                                <div class="VideoPage_child2--circle3"></div>
+                            </div>
+                        </div>
+                        <iframe id="videoFrame" src="https://player.vimeo.com/video/45830194" class="VideoPage_child1--video" controls></iframe>
+                    </div>
+        
                     <div class="FQAPage__parent--child2--img01">
                         <div><img class="img01" src="./images/FQA/about-2.jpg" alt="images"/></div>
                         <div><img class="img01" src="./images/FQA/about-3.jpg" alt="images"/></div>
